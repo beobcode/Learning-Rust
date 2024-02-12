@@ -45,6 +45,7 @@ Each project subdirectory will have some kind of goal to focus on and learn.
     reference so you can change the value
     - You can have only one mutable borrow per value at a time
   - Using comments '//' and multy line comments start '/_' and end with '_/'
+  - How to add a dependence to a project using 'cargo add [CARGO NAME]'
 
 <details>
 <summary>
@@ -70,3 +71,56 @@ Excises
     - loop
     - while
     - for..in
+
+<details>
+<summary>
+Excises
+(Provided by googles Gemini)
+</summary>
+I'd be happy to provide another challenge that builds upon your newfound knowledge of Rust arrays, tuples, conditionals, and loops!
+
+**Challenge:**
+
+Develop a program that simulates a simple text-based adventure game. Here are
+the core requirements:
+
+**Story:**
+
+You are a detective tasked with solving a mystery in a mansion. Each room in the
+mansion holds clues and potential dangers. Explore the mansion, navigate through
+challenges, and gather evidence to uncover the truth.
+
+**Functionality:**
+
+- Use **arrays** to represent different rooms in the mansion, each with its own
+  description and potential items.
+- Use **tuples** to track the player's inventory and current location.
+- Implement **conditionals ("if")** to handle decisions made by the player, such
+  as choosing to enter a room, interact with an object, or use an item.
+- Use **loops** (`while` or `for`) to allow the player to explore the mansion
+  repeatedly until the mystery is solved.
+
+**Bonus Features:**
+
+- Add **character stats** like health or detective points, using variables and
+  updating them with player actions.
+- Include **random events** or **puzzles** within rooms, requiring the player to
+  use their inventory or logic to progress.
+- Implement different **win/lose conditions** based on player choices and
+  actions.
+
+**Remember:**
+
+- Focus on understanding and demonstrating the use of arrays, tuples,
+  conditionals, and loops.
+- Keep the game simple and focus on core mechanics rather than complex graphics
+  or storytelling.
+- Use meaningful variable names, indentation, and comments to improve code
+  readability.
+
+This challenge encourages you to combine various concepts while building a fun
+and interactive program. If you encounter any difficulties or have questions,
+feel free to ask! I'm here to guide you and help you complete this learning
+project.
+
+</details>
