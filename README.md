@@ -53,12 +53,12 @@ Exercises
 (Provided by googles Gemini)
 </summary>
 
-# Challenge: Define two functions:
+**Challenge: Define two functions:**
 
     1. calculate_age_in_days(birth_year: u16): This function should take a birth year as input and return the user's age in days, assuming the current year is 2024. Use variables to store the birth year and current year. Remember to account for leap years!
     2. greet_by_name(name: &str, age: u32): This function should take a name and age as input and print a personalized greeting like "Hello, Alice! You are 30 years old."
 
-# Bonus: Enhance the functions by:
+**Bonus: Enhance the functions by:**
 
     - Adding error handling for invalid inputs (e.g., incorrect birth year or negative age).
     - Allowing the calculate_age_in_days function to accept dates instead of just years.

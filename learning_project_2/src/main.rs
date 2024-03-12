@@ -20,13 +20,13 @@ fn calculate_age_in_days(birth_year: u16) -> u16 {
     while u32::from(year_counter) as i32 <= current_year {
         let leap_year: bool = NaiveDate::from_ymd_opt(current_year,1,1).unwrap().leap_year();
         if leap_year {
-            age_in_days = age_in_days + days_in_leap_year;
+            age_in_days += days_in_leap_year;
         } else {
-            age_in_days = age_in_days + days_in_normal_year;
+            age_in_days +=  days_in_normal_year;
         }
         year_counter +=1; // Count up to the current year
     }
-    return age_in_days;
+    age_in_days
 }
 
 fn greet_by_name(name: &str, age: u32) {
