@@ -69,7 +69,7 @@ Exercises
 ## Learning Project 3
 
 - Learning goals
-  -[] Learn about tuples
+  - Learn about tuples
   - Learn about arrays
   - condition statements "if"
   - Learn loops

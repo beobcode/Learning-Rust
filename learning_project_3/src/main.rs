@@ -20,7 +20,7 @@ const GAME_MENU: &str = r#"
 3. Exit the game
 
 "#;
-const GO_HOME_MENUE_OPTION: &str = "Go Home ";
+const GO_HOME_MENU_OPTION: &str = "Go Home ";
 
 fn main() {
     println!("{}", WELCOME_MSG);
